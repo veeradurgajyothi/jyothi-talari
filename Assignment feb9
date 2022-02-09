@@ -1,0 +1,6 @@
+number=int(input("enter an integer number")) 
+Remainder=number%2
+if(remainder==0);
+   Print(number,"is a even number") 
+else
+   print(number," is a odd number") 
