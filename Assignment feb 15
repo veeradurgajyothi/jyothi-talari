@@ -1,0 +1,6 @@
+if _ _name_ _== '_ _main_ _':
+      a=int(input()) 
+      b=int(input()) 
+print(a+b) 
+print(a-b) 
+print(a*b) 
