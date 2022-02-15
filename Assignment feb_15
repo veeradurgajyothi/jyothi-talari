@@ -1,0 +1,5 @@
+if _ _name_ _ =='_ _ main_ _ ':
+      a=int(input()) 
+      b=int(input()) 
+Print(a//b) 
+print(a/b) 
