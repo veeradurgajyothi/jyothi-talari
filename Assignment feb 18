@@ -1,0 +1,7 @@
+n=int(input('enter number:')) 
+f=1
+s=0
+for i in range(n,n+1):
+    f=f*i
+    s=s+f
+print ('sum of factorial is:',s) 
