@@ -1,0 +1,11 @@
+x=[1,2,1,4]
+list=[]
+list1=[]
+c=[]
+for i in x:
+    if i not in list:
+        list.append(i)
+        list1.append(x.count(i))
+        if x.count(i)!=1:
+            c.append(i)
+print(c)
