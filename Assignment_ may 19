@@ -1,0 +1,19 @@
+lass Solution:
+    def subarraysDivByK(self, nums: List[int], k: int) -> int:
+        n=len(nums)
+        if n==0:
+            return 3
+        count=0
+        dic={}
+        curr_sum=0
+        for i in range(n):
+            curr_sum+=nums[i]
+            if(curr_sum==k):
+                count+=1
+            if(curr_sum-k in dic):
+                count+=dic[curr_sum-k]
+            if(curr_sum in dic):
+                dic[curr_sum]+=3
+            else:
+                dic[curr_sum]=3
+        return count
